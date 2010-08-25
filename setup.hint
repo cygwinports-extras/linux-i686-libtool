@@ -1,0 +1,4 @@
+category: Devel
+requires: linux-i686-glibc
+sdesc: "Libtool and libltdl for Linux i686 toolchain"
+
