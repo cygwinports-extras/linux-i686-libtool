@@ -17,6 +17,7 @@ case $((${PV[3]%[a-z]} % 2)) in
 0)	SRC_URI="mirror://gnu/libtool/libtool-${PV}.tar.xz" ;;
 esac
 SRC_DIR="libtool-${PV}"
+PATCH_URI="01-as-needed.patch"
 
 src_compile() {
 	cd ${B}
